@@ -1,0 +1,5 @@
+The code to generate all classification results is included in `assignment-2.ipynb`. The `*.pkl` files are saved SVC models. The `COMP30027_Assignment2_text_features.ipynb` file is also included as a few functions were added to generate the plots of the distribution of words in the `doc2vec` space.
+
+To train the machine learning model, some of the code will have to be run on all the data directories to generate individual text files of all 40,000 instances. I learned only afterwards that it could be trained straight from a dataframe.
+
+_apologies if you actually have to look through this code, usually I maintain a clean code style but the fact this wasn't directly assessed meant I totally lost all my standards so this code is atrociously uninterpretable and under-commented. Maybe except for the Neural network. I made a pretty report to compensate :))_
